@@ -7,83 +7,48 @@
 <meta name="description" content="Najszybciej rozwijający się kult na 9 światach, przyjdź i przekonaj się sam"/>
 <meta name= "keywords" content="macki,kult,koniec świata"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge.chrome=1" />
-<link rel="stylesheet" href="style.css" >
-<style>
-	#container
-	{
-	width:1000px;
-	margin-left:auto;
-	margin-right:auto;
-	}
-	.rect
-	{
-	background-color:orange;
-	color:purple;
-	text-align:center;
-	padding:15px;
-	.square
-	{
-	border:5px;
-	border-color:black;
-	float:left;
-	width:400px;
-	height:400px;
-	padding:50px;
-	color:white;
-	background-color:black;
-	}
-	.smallt
-	{
-	width:175px
-	height:100px
-	padding:12.5px;
-	}
-	.medt
-	{
-	width:375px
-	height:100px
-	padding:12.5px;
-	}
-	.bigt
-	{
-	width:175px
-	height:100px
-	padding:12.5px;
-	}
-</style>
+<script type="text/javascript" src="timer.js"></script>
+<link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
-<body>
+<body onload="odliczanie();">
 <div id="container">
-<div class="rect">
-
-</div>
-<div class="square">
-	<div class="smallt">
+	<div class="rect">
+		<div id="zegar"></div> 
 	</div>
-	<div class="smallt">
+	<div class="square">
+		<div class="smallt" id="t1">
+		hh
+		</div>
+		<div class="smallt" id="t2">
+		hh
+		</div>
+		<div class="clear"> </div>
+		<div class="smallt" id="t3">
+		hh
+		</div>
+		<div class="smallt" id="t4">
+		hh
+		</div>
+		<div class="clear"> </div>
+		<div class="medt" id="t5">
+		hh
+		</div>
 	</div>
-	<div class="smallt">
+	<div class="square">
+		<div class="bigt">
+		</div>
+		<div class="linkt">
+		</div>
+		<div class="linkt">
+		</div>
+		<div class="linkt">
+		</div>
+		<div class="linkt">
+		</div>
+		<div class="clear"> </div>
 	</div>
-	<div class="smallt">
+	<div class="rect">
 	</div>
-	<div class="medt">
-	</div>
-	
-	
-</div>
-<div class="square"
-	<div class="bigt">
-	</div>
-	<div class="linkt">
-	</div>
-	<div class="linkt">
-	</div>
-	<div class="linkt">
-	</div>
-	<div class="linkt">
-	</div>
-</div>
-<div class="rect">
 </div>
 </body>
 </html>
