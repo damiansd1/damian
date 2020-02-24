@@ -7,6 +7,7 @@
 		width:1000px;
 		margin-left:auto;
 		margin-right:auto;
+		background-color:yellow;
 
 	}
 	.rect
@@ -21,51 +22,81 @@
 	{
 		color:white;
 		float:left;
-		width:50%;
+		width:46%;
+		height:350px;
 		background-color:black;
+		margin:20px;
 	}
 	.smallt
 	{
-		width:50%;
+		width:47.5%;
 		height:100px;
 		background-color:green;
+		margin:1.23%;
+		float:left;
 	}
 	.medt
 	{
-		width:100%;
+		width:95%;
 		height:100px;
 		background-color:purple;
+		margin:2.5%;
 	}
 	.bigt
 	{
-		width:100%;
+		width:95%;
 		height:200px;
+		margin:2.5%;
+		background-color:green;
 	}
 	.linkt
 	{
-		width:25%;
+		width:102px;
 		height:100px;
-		background-color:blue;
+		margin:5px;
+		background-color:red;
 		float:left;
+		text-align:center;
 	}
-	#t1 
+	
+	#l5 
 	{
-		float:left;
+		background-color:#4668b3;	
+		margin-right:10px;
+		margin-left:5px;
+		
 	}
-	#t2
+	#l2
 	{
-		float:left;
+		background-color:#d95333;
+		margin-left:10px;
+		margin-right:5px;
 	}
-	#t3 
+	#l3 
 	{
-		float:left;
+		background-color:#3095d3;
+		margin-right:5px;
+		margin-left:5px;
 	}
-	#t4
+	#l4
 	{
-		float:left;
+		background-color:;
+		margin-right:5px;
+		margin-left:5px;
+		
 	}
 	.clear
 	{
 		clear:both
 	}
+	#zegar
+	{
+		float:left;
+	}
+	#imię
+	{
+		float:left;
+		text-align:left;
+	}
+
 	
